@@ -1,0 +1,72 @@
+body {
+	font-family: "Open Sans", Calibri, sans-serif;
+	font-size:1.8em;
+    font-weight:bold;
+	color:#DFE0E6;
+	height:400px;
+	width:300px;
+	background-color:#121314;
+}
+#header {
+    padding:20px 20px 20px 20px;
+    background-color:#222326;
+}
+#list-box {
+    min-height:150px;
+    padding:20px 20px 10px 20px;
+}
+#bet-box {
+    padding:10px 20px 20px 20px;
+    height:120px;
+}
+#new {
+	color:#DFE0E6;
+	background-color:#121314;
+    border:none;
+}
+h3 {
+    color:#A8AAAE;
+}
+ul {
+    margin-left:-40px;
+}
+li {
+    padding:5px 0 5px 15px;
+    border-bottom: 1px solid gray;
+
+}
+#button-box {
+
+    text-align:center;
+    background-color:#222326;
+}
+#begin {
+    margin:10px 20px 20px 20px;
+    border-radius:20px;
+}
+#0 {
+    color:#E5D637;
+}
+li:hover {
+    background-color:#222326;
+}
+#up {
+    
+    margin-left:0px;
+}
+#down {
+    margin-left:0px;
+}
+.p {
+    font-size:30px;
+    cursor:pointer;
+    cursor:hand;
+}
+#label {
+
+    font-size:15px;
+    color:#A8AAAE;
+}
+.del {
+    color:red;
+}

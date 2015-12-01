@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <title>Wager</title>
+    <link type="text/css" rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <div id="header">
+    </div>
+    <div id="list-box">
+    	<h3 style="color:#E5D637">TODAY</h3>
+    	<ul id="list" style="list-style-type:none">
+    	</ul>
+    	<form id="form">
+    	<input type="text" id="new" placeholder="+  New todo">
+    	</form>
+    </div>
+    <div id="bet-box">
+    <div style="float:left">
+    	<h3 style="display:inline">BET: <span id="0" style="color:#E5D637"></span></h3>
+        </div>
+        <div id="label" style="float:right">1 &nbsp;&nbsp;&nbsp; 10 &nbsp;&nbsp;100 1000 </div>
+        <div style="float:right">
+    	<p align="left" id="up" style="display:inline"><span id="0"></span></p> <p style="display:inline" align="right"><i class="p" id="1">&#9650</i> <i class = "p" id="2">&#9650</i> <i class="p" id="3">&#9650</i> <i class="p" id="4">&#9650</i></p>
+        <p id="down" align="right"><i class="p" id="5">&#9660</i> <i class="p" id="6">&#9660</i> <i class="p" id="7">&#9660</i> <i class="p" id="8">&#9660</i></p>
+        </div>
+    </div>
+    <div id="button-box">
+    <button type="button" class="btn btn-default" id="begin">START THE DAY</button>
+    </div>
+    <script src="begin.js"></script>
+  </body>
+</html>
